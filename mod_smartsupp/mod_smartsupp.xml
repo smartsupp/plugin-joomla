@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.0.0" client="site" method="upgrade">
+	<name>Smartsupp Live Chat</name>
+	<author>Smartsupp.com</author>
+	<creationDate>July 31, 2016</creationDate>
+	<copyright>Copyright (C) 2016 Smartlook.com</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.txt</license>
+	<authorEmail>vladimir@smartsupp.com</authorEmail>
+	<authorUrl>www.smartsupp.com</authorUrl>
+	<version>1.0.0</version>
+	<description>COM_MOD_SMARTSUPP_DESCRIPTION</description>
+	<files>
+		<folder>css</folder>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+		<filename module="mod_smartsupp">mod_smartsupp.php</filename>
+		<filename module="mod_smartsupp">helper.php</filename>
+		<filename module="mod_smartsupp">index.html</filename>
+ 	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_smartsupp.ini</language>
+		<language tag="cs-CZ">language/cs-CZ/cs-CZ.mod_smartsupp.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+		  <fieldset name="basic" label="Settings">
+			<field name="@spacer" type="spacer" default="" label="COM_MOD_SMARTSUPP_INTRO" description=""/>
+			<field name="smartsupp_key" type="text" default="" label="COM_MOD_SMARTSUPP_KEY" description="COM_MOD_SMARTSUPP_KEY_DESCRIPTION" class="required smartsupp_key"/>
+			<field name="@spacer1" type="spacer" default="" label="COM_MOD_SMARTSUPP_VARIABLES_DESCRIPTION" description=""/>
+			<field name="smartsupp_variables" type="list" default="no" label="COM_MOD_SMARTSUPP_VARIABLES" description="COM_MOD_SMARTSUPP_VARIABLES">
+				<option value="yes">COM_MOD_SMARTSUPP_YES</option>
+				<option value="no">COM_MOD_SMARTSUPP_NO</option>
+			</field>
+			<field name="smartsupp_id" type="list" default="no" label="COM_MOD_SMARTSUPP_ID" description="COM_MOD_SMARTSUPP_ID_DESCRIPTION" showon="smartsupp_variables:yes">
+				<option value="yes">COM_MOD_SMARTSUPP_SHOW</option>
+				<option value="no">COM_MOD_SMARTSUPP_HIDE</option>
+			</field>
+			<field name="smartsupp_name" type="list" default="no" label="COM_MOD_SMARTSUPP_NAME" description="COM_MOD_SMARTSUPP_NAME_DESCRIPTION" showon="smartsupp_variables:yes">
+				<option value="yes">COM_MOD_SMARTSUPP_SHOW</option>
+				<option value="no">COM_MOD_SMARTSUPP_HIDE</option>			
+			</field>
+			<field name="smartsupp_email" type="list" default="no" label="COM_MOD_SMARTSUPP_EMAIL" description="COM_MOD_SMARTSUPP_EMAIL_DESCRIPTION" showon="smartsupp_variables:yes">
+				<option value="yes">COM_MOD_SMARTSUPP_SHOW</option>
+				<option value="no">COM_MOD_SMARTSUPP_HIDE</option>
+			</field>
+			<field name="smartsupp_phone" type="list" default="no" label="COM_MOD_SMARTSUPP_PHONE" description="COM_MOD_SMARTSUPP_PHONE_DESCRIPTION" showon="smartsupp_variables:yes">
+				<option value="yes">COM_MOD_SMARTSUPP_SHOW</option>
+				<option value="no">COM_MOD_SMARTSUPP_HIDE</option>
+			</field>
+			<field name="smartsupp_role" type="list" default="no" label="COM_MOD_SMARTSUPP_ROLE" description="COM_MOD_SMARTSUPP_ROLE_DESCRIPTION" showon="smartsupp_variables:yes">
+				<option value="yes">COM_MOD_SMARTSUPP_SHOW</option>
+				<option value="no">COM_MOD_SMARTSUPP_HIDE</option>
+			</field>
+			<field name="smartsupp_spendings" type="list" default="no" label="COM_MOD_SMARTSUPP_SPENDINGS" description="COM_MOD_SMARTSUPP_SPENDINGS_DESCRIPTION" showon="smartsupp_variables:yes">
+				<option value="yes">COM_MOD_SMARTSUPP_SHOW</option>
+				<option value="no">COM_MOD_SMARTSUPP_HIDE</option>
+			</field>
+			<field name="smartsupp_orders" type="list" default="no" label="COM_MOD_SMARTSUPP_ORDERS" description="COM_MOD_SMARTSUPP_ORDERS_DESCRIPTION" showon="smartsupp_variables:yes">
+				<option value="yes">COM_MOD_SMARTSUPP_SHOW</option>
+				<option value="no">COM_MOD_SMARTSUPP_HIDE</option>
+			</field>
+			<field name="smartsupp_optional_api" type="textarea" default="" label="COM_MOD_SMARTSUPP_OPTIONAL_API" description="COM_MOD_SMARTSUPP_OPTIONAL_API_DESCRIPTION" class="smartsupp_optional_api" filter="raw"/>
+		  </fieldset>
+		</fields>
+	</config>
+</extension>
