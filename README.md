@@ -1,0 +1,1 @@
+# smartsupp-plugin-joomla
