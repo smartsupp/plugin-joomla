@@ -1,9 +1,11 @@
-# Smartsupp Joomla plugin
+# Smartsupp plugin: Joomla
 
-Joomla plugin for Smartsupp live chat
+Plugin for Joomla.
 
-* https://www.smartsupp.com/
+## Versions
+
+* 1.0.0 (Joomla 3.6)
 
 ## Copyright
 
-Copyright (c) 2016 Smartsupp.com, s.r.o.
+Copyright (c) 2017 [Smartsupp.com](https://www.smartsupp.com/), s.r.o.
