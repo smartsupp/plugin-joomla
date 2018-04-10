@@ -1,11 +1,7 @@
-# Smartsupp plugin: Joomla
+# Smartsupp plugin - Joomla
 
-Plugin for Joomla.
-
-## Versions
-
-* 1.0.0 (Joomla 3.6)
+Download plugin files in .ZIP above.
 
 ## Copyright
 
-Copyright (c) 2017 [Smartsupp.com](https://www.smartsupp.com/), s.r.o.
+Copyright (c) 2018 [Smartsupp.com](https://www.smartsupp.com/)
