@@ -1,8 +1,4 @@
-# Smartsupp plugin - Joomla 3.6
-
-## Compatibility
-
-Versions: 3.6.0.0 - 3.6.5.0
+# Smartsupp plugin - Joomla
 
 ## Copyright
 
