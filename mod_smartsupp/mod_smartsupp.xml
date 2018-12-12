@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="1.0.0" client="site" method="upgrade">
+<extension type="module" version="3.0.0" client="site" method="upgrade">
 	<name>Smartsupp Live Chat</name>
 	<author>Smartsupp.com</author>
 	<creationDate>July 31, 2016</creationDate>
-	<copyright>Copyright (C) 2016 Smartlook.com</copyright>
+	<copyright>Copyright (C) 2016+ Smartlook.com</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.txt</license>
 	<authorEmail>vladimir@smartsupp.com</authorEmail>
 	<authorUrl>www.smartsupp.com</authorUrl>
-	<version>1.0.0</version>
+	<version>3.0.0</version>
 	<description>COM_MOD_SMARTSUPP_DESCRIPTION</description>
 	<files>
 		<folder>css</folder>
